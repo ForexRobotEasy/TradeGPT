@@ -1,0 +1,86 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                             TradeGPT.mq5          |
+//|                      Copyright 2022, Forex Robot Easy Team        |
+//|                                              forexroboteasy.com    |
+//+------------------------------------------------------------------+
+
+// Search Function
+void SearchFunction()
+{
+    // Utilize ChatGPT to find the best market entry strategy
+    // Add code to interact with ChatGPT system
+    
+    // Implement filter based on co to enhance the search process
+    // Add code to implement filter based on co
+}
+
+// Entry Function
+void EntryFunction()
+{
+    // Execute buy and sell orders based on GPT system, 4 SMA, and 12 patterns
+    // Add code to execute buy and sell orders
+    
+    // Determine appropriate entry points for trades
+    // Add code to determine appropriate entry points
+}
+
+// Control Function
+void ControlFunction()
+{
+    // Monitor and control open trades
+    // Add code to monitor and control open trades
+    
+    // Implement risk management strategies to minimize potential losses
+    // Add code to implement risk management strategies
+}
+
+// Exit Function
+void ExitFunction()
+{
+    // Determine optimal exit points for trades
+    // Add code to determine optimal exit points
+    
+    // Automatically close trades based on predefined conditions
+    // Add code to automatically close trades based on predefined conditions
+}
+
+// Main Program
+int OnInit()
+{
+    // Initialize necessary variables and objects
+    
+    // Call Search Function
+    SearchFunction();
+    
+    // Call Entry Function
+    EntryFunction();
+    
+    // Call Control Function
+    ControlFunction();
+    
+    // Call Exit Function
+    ExitFunction();
+    
+    return(INIT_SUCCEEDED);
+}
+
+void OnDeinit(const int reason)
+{
+    // Perform necessary cleanup and resource deallocation
+}
+
+void OnTick()
+{
+    // Perform necessary actions on each tick
+}
+
+void OnTrade()
+{
+    // Handle trade-related events and actions
+}
+
+void OnTimer()
+{
+    // Perform necessary actions on each timer event
+}
